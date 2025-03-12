@@ -20,17 +20,17 @@ export default function Home() {
 
                     <Col  span={24} md={8} >
                         {/* <Link href={`/discounts/${item?.id}`}> */}
-                            {/* <Badge.Ribbon color="red" text={`Скидка 5%`}> */}
+                            <Badge.Ribbon color="red" text={`Скидка 7%`}>
                                 <Card hoverable cover={<img alt="example" src="/2da230d57f6c7e104175462c2a40a1e9.jpg" />} >
                                     <Meta title='Чистка и ремонт' description='Очистка паром, мойка под давлением!' />
                                     <ButtonElements/>
                                 </Card>
-                            {/* </Badge.Ribbon> */}
+                            </Badge.Ribbon>
                         {/* </Link> */}
                     </Col>
                     <Col  span={24} md={8} >
                         {/* <Link href={`/discounts/${item?.id}`}> */}
-                            <Badge.Ribbon color="red" text={`Скидка 3%`}>
+                            <Badge.Ribbon color="red" text={`Скидка 10%`}>
                                 <Card hoverable cover={<img alt="example" src="/zapravka-bytovyh-kondicionerov.jpg" />} >
                                     <Meta title='Замена фреона' description='Заправка фреоном под давлением!'/>
                                     <ButtonElements/>
@@ -41,13 +41,13 @@ export default function Home() {
                     </Col>
                     <Col  span={24} md={8} >
                         {/* <Link href={`/discounts/${item?.id}`}> */}
-                            <Badge.Ribbon color="red" text={`Скидка 8%`}>
+                            {/* <Badge.Ribbon color="red" text={`Скидка 8%`}> */}
                                 <Card hoverable cover={<img alt="example" src="/shutterstock767932195.jpg" />} >
                                     <Meta title='Установка кондиционера' description='Установка всех типов кондиционеров!' />
                                     <ButtonElements/>
                                     
                                 </Card>
-                            </Badge.Ribbon>
+                            {/* </Badge.Ribbon> */}
                         {/* </Link> */}
                     </Col>
             </Row>
