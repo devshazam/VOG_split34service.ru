@@ -52,7 +52,7 @@ export default function HomeLayout({
       <Footer style={{ textAlign: 'center' }}>
         <p>Тел.: +79377283649; Вакуленко Александр Николаевич; ИНН: 344807806431
         <hr></hr><br></br>
-        Разработано в <a href="https://kopi34.ru/">kopi34.ru</a> ©2024</p>
+        Разработано <a href="https://github.com/devshazam">devshazam</a> ©2024</p>
       </Footer>
       </div>
     </Layout>

@@ -15,19 +15,21 @@ export default function Home() {
   return (
 
         <>
-        <CustomCarousel/>
+            <CustomCarousel/>
             <Calc />
 
             <Cards />
 
             <div id='map'>
-            <Flex vertical gap={24} className="mt-8">
+                <Flex vertical gap={24} className="mt-8">
 
-                <div id="mymap"></div>
+                    <div id="mymap"></div>
 
-        <Script type="text/javascript" charSet="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1c0e2882a77ef4f5b918be307930c1a2563d1705183455a9c32a7d244815023d&amp;width=100%25&amp;height=500&amp;id=mymap&amp;lang=ru_RU&amp;scroll=true"></Script>
-  
-            </Flex>
+                    {/* <Script type="text/javascript" charSet="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1c0e2882a77ef4f5b918be307930c1a2563d1705183455a9c32a7d244815023d&amp;width=100%25&amp;height=500&amp;id=mymap&amp;lang=ru_RU&amp;scroll=true"></Script> */}
+
+                    <script type="text/javascript" charSet="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad194901ad6b9b0d192760147f1e3d1d390781ffc3972d28d0d831f0e81902da5&amp;width=100%25&amp;height=500&amp;id=mymap&amp;lang=ru_RU&amp;scroll=true"></script>
+    
+                </Flex>
             </div>
 
          
